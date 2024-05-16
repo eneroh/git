@@ -1,6 +1,7 @@
 # git
 
 ## Summary
+The beginning of my git journey and inspiration for this repo: https://pages.github.com/
 
 ```git
 git clone <repository>
