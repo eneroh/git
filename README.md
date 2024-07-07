@@ -29,3 +29,8 @@ Pushes the changes to the main repository and updates the file
 git pull
 ```
 Pulls the content from a remote repository and then updates your local repository to reflect the remote repo
+
+```git
+git rebase 
+```
+Pulls latest updates to repo while maintaining your current edits
