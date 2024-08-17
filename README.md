@@ -34,3 +34,12 @@ Pulls the content from a remote repository and then updates your local repositor
 git rebase 
 ```
 Pulls latest updates to repo while maintaining your current edits
+
+```git
+git fetch -all
+```
+Fetchs all versions available
+
+```git
+git checkout <version>
+```
