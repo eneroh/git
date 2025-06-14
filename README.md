@@ -41,5 +41,10 @@ git fetch -all
 Fetchs all versions available
 
 ```git
+git push -f origin main
+```
+Resolves rebase constant git pull error
+
+```git
 git checkout <version>
 ```
