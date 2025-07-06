@@ -65,3 +65,8 @@ If prompted with: Merge with strategy ort failed.
 Saves working dir and allows for updates to push forward
 <br>
 Finally git push -u origin main, problem is solved
+
+```git
+git reset --hard
+```
+If you've made some massive changes that have messed too many things up, use this command to revert to the remote branch (working repo)
