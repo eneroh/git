@@ -10,7 +10,7 @@ Downloads a github repository copy for you on your local machine
 
 ```git
 git add *
-git add -all
+git add --all
 ```
 Adds updates to push upstream
 
@@ -35,6 +35,7 @@ git rebase
 ```
 Pulls latest updates to repo while maintaining your current edits
 
+
 ```git
 git fetch -all
 ```
@@ -48,3 +49,19 @@ Resolves rebase constant git pull error
 ```git
 git checkout <version>
 ```
+
+```git
+git checkout
+```
+Provides basic information on whats happening with errors
+
+```git
+git stash
+git pull origin main
+git stash apply 0
+```
+If prompted with: Merge with strategy ort failed.
+<br>
+Saves working dir and allows for updates to push forward
+<br>
+Finally git push -u origin main, problem is solved
